@@ -1,0 +1,40 @@
+# Gobber Mod Rare Ore Generation Datapack
+
+This datapack reduces the ore generation frequency for the Gobber mod ores to make them much rarer and more valuable to find.
+
+## What it does
+
+- **Overrides** the original Gobber ore generation with rare versions:
+  - Overworld Gobber Ore: ~4 veins per chunk (emerald-like frequency), Y 0-160
+  - Nether Gobber Ore: ~1 vein per 2 chunks (50% chance), Y 0-256
+  - End Gobber Ore: ~1 vein per 3 chunks (33% chance), Y 0-256
+
+## Installation
+
+1. Place this datapack folder into your world's `datapacks` folder
+2. Restart your world or use `/reload` command
+3. The changes will apply to newly generated chunks
+
+## Testing
+
+To verify it's working, go to unexplored areas and use:
+```
+/fill ~-4 0 ~-4 ~4 32 ~4 air replace gobber2:gobber2_ore
+```
+
+You should find significantly fewer ore blocks compared to before!
+
+## How it Works
+
+This datapack uses the **feature override method** - it directly replaces the original Gobber placed features with new versions that have much lower spawn rates. This is more reliable than biome modifiers and works consistently.
+
+## Compatibility
+
+- Designed for **NeoForge** modloader
+- Compatible with Minecraft 1.20.1+ 
+- Requires the Gobber mod to be installed
+
+## Rarity Comparison
+
+- **Before**: 8 veins per chunk (original Gobber settings)
+- **After**: 4 veins per chunk in Overworld, 50% chance in Nether, 33% chance in End
