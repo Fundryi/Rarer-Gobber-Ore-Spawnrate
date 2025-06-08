@@ -11,16 +11,13 @@ This datapack reduces the ore generation frequency for the Gobber mod ores to ma
 
 ## Installation
 
-### Option 1: Folder Installation (Recommended)
+### Folder Installation (REQUIRED - Zip Files Don't Work Properly)
 1. Download the `gobber-rare-ores-datapack` folder
 2. Place the entire folder into your world's `datapacks` directory
 3. Use `/reload` command or restart your world
 4. The changes will apply to newly generated chunks
 
-### Option 2: Zip Installation
-1. Download `gobber-rare-ores-datapack-1.0.0.zip`
-2. Place the zip file directly into your world's `datapacks` directory
-3. Use `/reload` command or restart your world
+**⚠️ Important**: This datapack has compatibility issues when used as a zip file. While Minecraft will show it as "loaded", the ore generation changes will NOT apply. This is a known issue with certain datapack configurations that override mod features. Always use the folder method for this datapack.
 
 ## Testing
 
