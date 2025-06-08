@@ -1,0 +1,19 @@
+# Minecraft world files
+*.dat
+*.dat_old
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Example files (we don't need to include these)
+GOBBER\ FILES/
+NO\ COPPER\ EXAMPLE/
