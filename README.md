@@ -5,7 +5,7 @@ This datapack reduces the ore generation frequency for the Gobber mod ores to ma
 ## What it does
 
 - **Overrides** the original Gobber ore generation with rare versions:
-  - Overworld Gobber Ore: ~4 veins per chunk (emerald-like frequency), Y 0-160
+  - Overworld Gobber Ore: ~2 veins per chunk (very rare), Y 0-160
   - Nether Gobber Ore: ~1 vein per 2 chunks (50% chance), Y 0-256
   - End Gobber Ore: ~1 vein per 3 chunks (33% chance), Y 0-256
 
@@ -37,4 +37,4 @@ This datapack uses the **feature override method** - it directly replaces the or
 ## Rarity Comparison
 
 - **Before**: 8 veins per chunk (original Gobber settings)
-- **After**: 4 veins per chunk in Overworld, 50% chance in Nether, 33% chance in End
+- **After**: 2 veins per chunk in Overworld, 50% chance in Nether, 33% chance in End
