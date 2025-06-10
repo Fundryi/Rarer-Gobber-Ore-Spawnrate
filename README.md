@@ -9,21 +9,21 @@ This datapack dramatically reduces the ore generation frequency for the Gobber m
 ┌─────────────┬─────────────┬─────────────┬─────────────┐
 │ Dimension   │ Original    │ Datapack    │ Reduction   │
 ├─────────────┼─────────────┼─────────────┼─────────────┤
-│ Overworld   │ ████████    │ ██          │ -81.25%     │
-│             │ 64/chunk    │ 12/chunk    │             │
+│ Overworld   │ ████████    │ █           │ -93.75%     │
+│             │ 64/chunk    │ 4/chunk     │             │
 ├─────────────┼─────────────┼─────────────┼─────────────┤
-│ Nether      │ ████████    │ █           │ -90.6%      │
-│             │ 64/chunk    │ 6/chunk     │             │
-├─────────────┼─────────────┼─────────────┼─────────────┤
-│ End         │ ████████    │ ▌           │ -96.9%      │
+│ Nether      │ ████████    │ ▌           │ -96.875%    │
 │             │ 64/chunk    │ 2/chunk     │             │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ End         │ ████████    │ ▌           │ -98.95%     │
+│             │ 64/chunk    │ 0.67/chunk  │             │
 └─────────────┴─────────────┴─────────────┴─────────────┘
 ```
 
 ### **Detailed Changes:**
-- **Overworld**: 2 veins per chunk, Y -40 to Y 30, 6 ores per vein = **12 ores/chunk**
-- **Nether**: 2 veins per chunk (50% spawn chance), Y 5 to Y 120, 6 ores per vein = **6 ores/chunk average**
-- **End**: 1 vein per chunk (33% spawn chance), Y 20 to Y 120, 6 ores per vein = **2 ores/chunk average**
+- **Overworld**: 2 veins per chunk, Y -40 to Y 30, 2 ores per vein = **4 ores/chunk**
+- **Nether**: 2 veins per chunk (50% spawn chance), Y 5 to Y 120, 2 ores per vein = **2 ores/chunk average**
+- **End**: 1 vein per chunk (33% spawn chance), Y 20 to Y 120, 2 ores per vein = **0.67 ores/chunk average**
 
 ## Installation
 
@@ -60,9 +60,9 @@ This datapack uses the **feature override method** - it directly replaces the or
 
 | Aspect | Original Gobber | With Datapack |
 |--------|----------------|---------------|
-| **Overworld ores/chunk** | 64 | 12 |
-| **Nether ores/chunk** | 64 | 6 (average) |
-| **End ores/chunk** | 64 | 2 (average) |
+| **Overworld ores/chunk** | 64 | 4 |
+| **Nether ores/chunk** | 64 | 2 (average) |
+| **End ores/chunk** | 64 | 0.67 (average) |
 | **Mining difficulty** | Creative-like | Balanced progression |
 | **Progression curve** | Flat | Overworld → Nether → End |
 

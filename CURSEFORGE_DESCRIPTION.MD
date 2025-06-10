@@ -11,22 +11,22 @@ Are Gobber ores spawning too frequently in your world? This datapack fixes that!
 ┌─────────────┬─────────────┬─────────────┬─────────────┐
 │ Dimension   │ Original    │ Datapack    │ Reduction   │
 ├─────────────┼─────────────┼─────────────┼─────────────┤
-│ Overworld   │ ████████    │ ██          │ -81.25%     │
-│             │ 64/chunk    │ 12/chunk    │             │
+│ Overworld   │ ████████    │ █           │ -93.75%     │
+│             │ 64/chunk    │ 4/chunk     │             │
 ├─────────────┼─────────────┼─────────────┼─────────────┤
-│ Nether      │ ████████    │ █           │ -90.6%      │
-│             │ 64/chunk    │ 6/chunk     │             │
-├─────────────┼─────────────┼─────────────┼─────────────┤
-│ End         │ ████████    │ ▌           │ -96.9%      │
+│ Nether      │ ████████    │ ▌           │ -96.875%    │
 │             │ 64/chunk    │ 2/chunk     │             │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ End         │ ████████    │ ▌           │ -98.95%     │
+│             │ 64/chunk    │ 0.67/chunk  │             │
 └─────────────┴─────────────┴─────────────┴─────────────┘
 ```
 
 **Reduces ore generation to balanced, rare levels:**
 
-*   **Overworld Gobber Ore**: 2 veins per chunk, 6 ores each, Y -40 to Y 30 = **12 ores/chunk**
-*   **Nether Gobber Ore**: 50% spawn chance, 2 veins per chunk, 6 ores each, Y 5 to Y 120 = **6 ores/chunk average**
-*   **End Gobber Ore**: 33% spawn chance, 1 vein per chunk, 6 ores each, Y 20 to Y 120 = **2 ores/chunk average**
+*   **Overworld Gobber Ore**: 2 veins per chunk, 2 ores each, Y -40 to Y 30 = **4 ores/chunk**
+*   **Nether Gobber Ore**: 50% spawn chance, 2 veins per chunk, 2 ores each, Y 5 to Y 120 = **2 ores/chunk average**
+*   **End Gobber Ore**: 33% spawn chance, 1 vein per chunk, 2 ores each, Y 20 to Y 120 = **0.67 ores/chunk average**
 
 ---
 
