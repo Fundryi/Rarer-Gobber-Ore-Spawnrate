@@ -12,18 +12,18 @@ This datapack dramatically reduces the ore generation frequency for the Gobber m
 │ Overworld   │ ████████    │ █           │ -93.75%     │
 │             │ 64/chunk    │ 4/chunk     │             │
 ├─────────────┼─────────────┼─────────────┼─────────────┤
-│ Nether      │ ████████    │ ▌           │ -96.875%    │
-│             │ 64/chunk    │ 2/chunk     │             │
+│ Nether      │ ████████    │ █           │ -93.75%     │
+│             │ 64/chunk    │ 4/chunk     │             │
 ├─────────────┼─────────────┼─────────────┼─────────────┤
-│ End         │ ████████    │ ▌           │ -98.95%     │
-│             │ 64/chunk    │ 0.67/chunk  │             │
+│ End         │ ████████    │ ▌           │ -98.4%      │
+│             │ 64/chunk    │ 1/chunk     │             │
 └─────────────┴─────────────┴─────────────┴─────────────┘
 ```
 
 ### **Detailed Changes:**
 - **Overworld**: 2 veins per chunk, Y -40 to Y 30, 2 ores per vein
-- **Nether**: 2 veins per chunk (50% spawn chance), Y 5 to Y 120, 2 ores per vein
-- **End**: 1 vein per chunk (33% spawn chance), Y 20 to Y 120, 2 ores per vein
+- **Nether**: 2 veins per chunk (100% spawn chance), Y 5 to Y 120, 2 ores per vein
+- **End**: 1 vein per chunk (50% spawn chance), Y 20 to Y 120, 2 ores per vein
 
 ## 📦 Installation
 
@@ -58,9 +58,9 @@ To verify it's working, go to unexplored areas and use:
 | Aspect | Original Gobber | With Datapack |
 |--------|----------------|---------------|
 | **Overworld ores/chunk** | 64 | 4 |
-| **Nether ores/chunk** | 64 | 2 (average) |
-| **End ores/chunk** | 64 | 0.67 (average) |
+| **Nether ores/chunk** | 64 | 4 |
+| **End ores/chunk** | 64 | 1 (average) |
 | **Mining difficulty** | Creative-like | Balanced progression |
-| **Progression curve** | Flat | Overworld → Nether → End |
+| **Progression curve** | Flat | Overworld = Nether → End |
 
 The original Gobber mod generated an overwhelming **64 ores per chunk** in every dimension. This datapack creates a proper difficulty curve while maintaining the mod's intended height ranges and ore distribution patterns.
