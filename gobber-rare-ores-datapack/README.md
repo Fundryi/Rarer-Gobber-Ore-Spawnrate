@@ -1,36 +1,66 @@
 # Gobber Rare Ores Datapack
 
-This datapack reduces the ore generation frequency for the Gobber mod ores to make them much rarer and more valuable to find.
+This datapack dramatically reduces the ore generation frequency for the Gobber mod ores to create balanced, progressive difficulty across dimensions.
 
-## What it does
+## 🎯 What it does
 
-- **Overrides** the original Gobber ore generation with rare versions:
-  - Overworld Gobber Ore: ~2 veins per chunk (very rare), Y 0-160
-  - Nether Gobber Ore: ~1 vein per 2 chunks (50% chance), Y 0-256
-  - End Gobber Ore: ~1 vein per 3 chunks (33% chance), Y 0-256
+### Ore Reduction Overview
+```
+┌─────────────┬─────────────┬─────────────┬─────────────┐
+│ Dimension   │ Original    │ Datapack    │ Reduction   │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ Overworld   │ ████████    │ ██          │ -81.25%     │
+│             │ 64/chunk    │ 12/chunk    │             │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ Nether      │ ████████    │ █           │ -90.6%      │
+│             │ 64/chunk    │ 6/chunk     │             │
+├─────────────┼─────────────┼─────────────┼─────────────┤
+│ End         │ ████████    │ ▌           │ -96.9%      │
+│             │ 64/chunk    │ 2/chunk     │             │
+└─────────────┴─────────────┴─────────────┴─────────────┘
+```
 
-## Installation
+### **Detailed Changes:**
+- **Overworld**: 2 veins per chunk, Y -40 to Y 30, 6 ores per vein
+- **Nether**: 2 veins per chunk (50% spawn chance), Y 5 to Y 120, 6 ores per vein
+- **End**: 1 vein per chunk (33% spawn chance), Y 20 to Y 120, 6 ores per vein
 
-1. Place this entire folder into your world's `datapacks` directory
+## 📦 Installation
+
+**⚠️ IMPORTANT: Folder Installation Required**
+
+1. Place this entire `gobber-rare-ores-datapack` folder into your world's `datapacks` directory
 2. Use `/reload` command or restart your world
 3. The changes will apply to newly generated chunks
 
-## Testing
+**Note**: This datapack **must be installed as a folder**. Zip files appear "loaded" but don't actually apply the changes due to mod feature override compatibility issues.
+
+## 🧪 Testing
 
 To verify it's working, go to unexplored areas and use:
 ```
-/fill ~-4 0 ~-4 ~4 32 ~4 air replace gobber2:gobber2_ore
+/fill ~-4 -40 ~-4 ~4 30 ~4 air replace gobber2:gobber2_ore
 ```
 
-You should find significantly fewer ore blocks compared to before!
+**Expected Results:**
+- **Before datapack**: Would find ~15-20 ore blocks in this area
+- **After datapack**: Should find ~3-4 ore blocks (or possibly none)
 
-## Compatibility
+## ✅ Compatibility
 
-- Designed for **NeoForge** modloader
-- Compatible with Minecraft 1.20.1+ 
-- Requires the Gobber mod to be installed
+- **Minecraft**: 1.20.1+
+- **Modloader**: NeoForge
+- **Required**: Gobber Mod
+- **Installation**: Folder only (zip files don't work)
 
-## Rarity Comparison
+## 📊 Impact Summary
 
-- **Before**: 8 veins per chunk (original Gobber settings)
-- **After**: 2 veins per chunk in Overworld, 50% chance in Nether, 33% chance in End
+| Aspect | Original Gobber | With Datapack |
+|--------|----------------|---------------|
+| **Overworld ores/chunk** | 64 | 12 |
+| **Nether ores/chunk** | 64 | 6 (average) |
+| **End ores/chunk** | 64 | 2 (average) |
+| **Mining difficulty** | Creative-like | Balanced progression |
+| **Progression curve** | Flat | Overworld → Nether → End |
+
+The original Gobber mod generated an overwhelming **64 ores per chunk** in every dimension. This datapack creates a proper difficulty curve while maintaining the mod's intended height ranges and ore distribution patterns.

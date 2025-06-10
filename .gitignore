@@ -15,5 +15,4 @@ Thumbs.db
 *.temp
 
 # Example files (we don't need to include these)
-GOBBER\ FILES/
-NO\ COPPER\ EXAMPLE/
+/Gobber-NeoForge-1.21.1-2.10.15.jar.src*
